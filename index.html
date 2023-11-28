@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BookFlix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid cus-nav">
+            <a class="navbar-brand text-white fw-bold fs-5" href="#">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxeWD7C8EvXIxRjipgU3zwpHHM5aMndlx_9A2Iq2Ilqn-keWwi70iAeEOdwaavgEQq2sox6axsH9UOtYW8sOhWIkuRGT89J8DBxN88H8B89yA7h24uMQWNmwfw7CKDZpMSZpQtKHkROD48lXwNMM5mmdD2Tvr-oECudJgurmvteqa-h4b-Ldl2dLyKqpYa/s1600/1bf0ab08da7c21a3ed063a6277666c66.png"
+                    alt="Logo" width="160" height="50" class="d-inline-block align-text-top">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                    <li class="nav-item">
+                        <a class="nav-link active  fs-5 text-white" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item active  fs-5">
+                        <a class="nav-link text-white" href="#">Movies</a>
+                    </li>
+
+                    <li class="nav-item active  fs-5">
+                        <a class="nav-link text-white" href="#">Series</a>
+                    </li>
+
+                    </li>
+                    <li class="nav-item active  fs-5">
+                        <a class="nav-link text-white" href="#">Events</a>
+                    </li>
+                    <li class="nav-item active  fs-5">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active  fs-5">
+                        <a class="nav-link text-white" href="Contact.html">Contact Us</a>
+                    </li>
+                    
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                </form>
+                <div>
+                    <a href="login.html"><button id="cus-btn">Signup/Login</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider Section -->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/Booking System/wp51800545.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>You</h5>
+                    <p>A psychological thriller series with exploring the dangers and the
+                        consequences
+                        of obsessive relationships.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/Booking System/wp1917131.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DareDevil</h5>
+                    <p>A blind lawyer fights crime in the courtroom by day and takes to the streets as a vigilante
+                        with
+                        enhanced senses by night</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/Booking System/wp6157194-extraction-2020-wallpapers.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Extraction</h5>
+                    <p>A high-stakes action thriller following a black-market mercenary tasked with rescuing an
+                        international crime lord's kidnapped son.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+    <!-- Top 10 Small Section -->
+
+    <div class="small-content">
+        <span class="small-title">
+            <h2> Top 10 Trending Movies</h2>
+            <hr>
+        </span>
+        <div class="small-body">
+            <a href=""><img
+                    src="https://th.bing.com/th/id/R.19d5597db2e71ec5a78306ce0f62ff8b?rik=0TGy6P3AgkyeGA&riu=http%3a%2f%2fcdn.collider.com%2fwp-content%2fuploads%2f2016%2f06%2fstranger-things-poster-netflix.jpg&ehk=pkncno4Qi9FsZOXXG0hpSnL%2flP%2bBpORZH%2bcSSzgLJEU%3d&risl=&pid=ImgRaw&r=0"
+                    height="225px" alt=""></a>
+            <a href=""><img
+                    src="https://th.bing.com/th/id/R.fe52c404ad7035ffe3fc39f0ad3ccd39?rik=WzaPPNiqMZlJPg&riu=http%3a%2f%2fcdn.collider.com%2fwp-content%2fuploads%2f2019%2f01%2fclose-poster.jpg&ehk=MvPN3iiuA4qfU2l9w2425VW%2bi6fJbZYz%2bHcLIl8foZ0%3d&risl=&pid=ImgRaw&r=0"
+                    height="225px" alt=""></a>
+            <a href=""><img
+                    src="https://www.thearthunters.com/wp-content/uploads/2020/04/dangerous_lies_xlg-960x1422.jpg"
+                    height="225px" alt=""></a>
+            <a href=""><img src="https://www.scifinow.co.uk/wp-content/uploads/2018/08/ghoul_ver2_xxlg.jpg"
+                    height="225px" alt=""></a>
+            <a href=""> <img src="https://static1.tribute.ca/poster/660x980/13-reasons-why-netflix-127067.jpg"
+                    height="225px" alt=""></a>
+            <a href=""><img
+                    src="https://www.thearthunters.com/wp-content/uploads/2020/04/extraction_netflix_ver2_xlg-960x1422.jpg"
+                    height="225px" alt=""></a>
+            <a href=""><img
+                    src="https://keithlovesmovies.com/wp-content/uploads/2020/08/AWAY_S1_Vertical_MAIN_Embrace_RGB_US-scaled.jpg"
+                    height="225px" alt=""></a>
+            <a href=""><img
+                    src="https://i2.netflixmovies.com/dibsl9ebc/image/upload/w_600,h_891,c_lfill,g_north/ucciptm1t7foyqmwfoyi.jpg"
+                    height="225px" alt=""></a>
+            <a href=""> <img src="https://th.bing.com/th/id/OIP.IKTzueFYY9G-cYkLixRy-AHaK5?pid=ImgDet&rs=1"
+                    height="225px" alt=""></a>
+            <a href=""> <img
+                    src="https://th.bing.com/th/id/R.b3eb290b1a544eba40d70815fe4c33dc?rik=nmuIoEbgXymRPg&riu=http%3a%2f%2fwww.thehollywoodnews.com%2fwp-content%2fuploads%2fperfectionposter-691x1024.jpeg&ehk=avHJUJrbQgM8f81e%2fRomAh83Bhxg85dMqI4LE4dabqQ%3d&risl=&pid=ImgRaw&r=0"
+                    height="225px" alt=""></a>
+        </div>
+    </div>
+
+    <!-- Recommended Section -->
+
+    <div class="most-title">
+        <h1>Recommended For You</h1>
+    </div>
+    <div class="cus-cardg-out">
+        <div class="cardg cus-cardg">
+            <div class="card" style="width: 20rem;">
+                <img src="https://th.bing.com/th/id/R.19d5597db2e71ec5a78306ce0f62ff8b?rik=0TGy6P3AgkyeGA&riu=http%3a%2f%2fcdn.collider.com%2fwp-content%2fuploads%2f2016%2f06%2fstranger-things-poster-netflix.jpg&ehk=pkncno4Qi9FsZOXXG0hpSnL%2flP%2bBpORZH%2bcSSzgLJEU%3d&risl=&pid=ImgRaw&r=0"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Stranger Things</h5>
+                    <p class="card-text">A group of kids in a small town confront supernatural mysteries, including
+                        a
+                        girl
+                        with telekinetic powers and a parallel dimension called the Upside Down.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item me-2">Thriller, Science-Fiction</li>
+                        <li class="list-group-item">Price - $25</li>
+                        <li class="list-group-item">200K+ Likes</li>
+                    </ul>
+                    <a href="book.html"><button type="button" class="btn btn-danger">Let's Book!</button></a>
+                    <a href="details.html"><button type="button" class="btn btn-success">Show Details</button></a>
+
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="https://i.pinimg.com/originals/88/43/1a/88431a9ed1430dd5359e13002b24c824.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">You</h5>
+                    <p class="card-text">A psychological thriller series exploring the dangers of modern technology,
+                        the
+                        consequences of obsessive relationships, and family secrets unravel.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Psychological, Thriller</li>
+                        <li class="list-group-item">Price - $25</li>
+                        <li class="list-group-item">100K+ Likes</li>
+                    </ul>
+                    <a href="book.html"><button type="button" class="btn btn-danger">Let's Book!</button></a>
+                    <a href="details.html"><button type="button" class="btn btn-success">Show Details</button></a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="https://th.bing.com/th/id/OIP.HmxzONhJOP9QiByXl22UhQHaK9?pid=ImgDet&rs=1" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Annihilation</h5>
+                    <p class="card-text">A mysterious and surreal sci-fi film depicting a team of scientists
+                        investigating a
+                        bizarre environmental phenomenon known as 'The Shimmer</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Mystery, Science Fiction</li>
+                        <li class="list-group-item"> Price - $30</li>
+                        <li class="list-group-item">50K+ Likes</li>
+                    </ul>
+                    <a href="book.html"><button type="button" class="btn btn-danger">Let's Book!</button></a>
+                    <a href="show.html"><button type="button" class="btn btn-success">Show Details</button></a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="https://th.bing.com/th/id/OIP.H4H0cre84IL0b8iS-qad4QHaK9?pid=ImgDet&rs=1" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Crown</h5>
+                    <p class="card-text"> A compelling historical drama chronicling the reign of Queen Elizabeth II
+                        and
+                        the challenges faced by the British royal family with poise and intrigue.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Historical, Politics</li>
+                        <li class="list-group-item">Price - $45</li>
+                        <li class="list-group-item">100K+ Likes</li>
+                    </ul>
+                    <a href="book.html"><button type="button" class="btn btn-danger">Let's Book!</button></a>
+                    <a href="show.html"><button type="button" class="btn btn-success">Show Details</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Event Section -->
+
+    <div class="event-heading">
+        <h1>Upcoming Famous Events</h1>
+    </div>
+    <div class="event-g">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://th.bing.com/th/id/OIP.KjYt7dQabrQR4sWDyx0tsAHaLg?pid=ImgDet&w=960&h=1491&rs=1"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Sunburn</h5>
+                        <p class=" card-text">"Experience a kaleidoscope of cultural richness at LPU's Cultural
+                            Show,
+                            where the stage comes alive with a tapestry of diverse performances."</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="book.html"><button type="button" class="btn btn-info">Let's Book!</button></a>
+                        <a href="show.html"><button type="button" class="btn btn-info">Show Details</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://i.pinimg.com/736x/40/a5/34/40a5344f97829be77257979fa452a95c.jpg"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Anicon 2.0</h5>
+                        <p class="card-text">"Dive into the anime universe at AniCon 2.0, an exhilarating event at
+                            LPU
+                            Unipolis, where fans unite for a celebration of animated wonders!"</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="book.html"><button type="button" class="btn btn-info">Let's Book!</button></a>
+                        <a href="show.html"><button type="button" class="btn btn-info">Show Details</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://th.bing.com/th/id/OIP.OTTQ8Zh2Ok8RvPBG8UIsIAHaLH?pid=ImgDet&rs=1"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Stand-Up Comedy By Pinak</h5>
+                        <p class="card-text">"Prepare for an uproarious evening with Pinak, as he takes center stage
+                            in
+                            a stand-up comedy performance that guarantees a night of laughter, insight, and comedic
+                            brilliance."</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="book.html"><button type="button" class="btn btn-info">Let's Book!</button></a>
+                        <a href="details.html"><button type="button" class="btn btn-info">Show Details</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Featured Section -->
+
+
+
+    <div class="feature-heading">
+        <h1>Feature Of The Day</h1>
+    </div>
+    <div class="feature">
+        <div class="card text-bg-dark">
+            <a href="https://zoomers.in"><img src="https://wallpapercave.com/wp/wp4253705.jpg" class="card-img"
+                    alt="..."></a>
+            <div class="card-img-overlay">
+                <h5 class="card-title">Chilling Adventures of Sabrina</h5>
+                <p class="card-text">Most Watched in last 24 Hours</p>
+
+            </div>
+        </div>
+        <div class="card text-bg-dark">
+
+            <a href="https://zoomers.in"> <img src="https://wallpapercave.com/wp/wp9456630.jpg" class="card-img"
+                    alt="..."></a>
+            <div class="card-img-overlay">
+                <h5 class="card-title">The Tomorrow war</h5>
+                <p class="card-text">Most Liked in last 12 Hours</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Contact Section -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
+
+            <div class="me-5 " id="footer-text">
+                <span>Want To Partner With Us? </span>
+            </div>
+
+
+            <div>
+                <button id="cus-btn">Click here</button>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold">BookFlix</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            Description
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Useful links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-white">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">List Your Movie!</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Terms and Conditions</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">Help</a>
+                        </p>
+                    </div>
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p><i class="fas fa-home mr-3"></i>Kolkata, WB, India</p>
+                        <p><i class="fas fa-envelope mr-3"></i> support@Bookflix.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> +914563789035</p>
+                        <p><i class="fas fa-print mr-3"></i> +911467589023</p>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © Copyright:
+            <a class="text-white" href="/">BookFlix.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
